@@ -1,7 +1,8 @@
 //import Head from 'next/head'
 import { Fragment } from 'react'
 import LandingLayout from '../components/layout/landing/landing.layout';
-import MotoSection from '../components/landingSecions/MotoSection'
+import MotoSection from '../components/landingSecions/MotoSection';
+import Post from '../components/landingSecions/post'
 export default function Home() {
   return (
     <Fragment>
@@ -26,6 +27,7 @@ export default function Home() {
         
         */}
         <MotoSection />
+        <Post />
 
 
       </LandingLayout>
