@@ -10,16 +10,27 @@ function MotoSection() {
 
                 <div className="row d-flex justify-content-center" style={{height:"200px"}}>
                     <img
-                        src="/wave.svg"
+                        src="/left.svg"
                         alt="Picture of the author"
 
                         className="img-fluid"
-                        style={{ transform: "scaleY(-1)", position: "relative", top: "-85px", opacity: "0.7"}}
+                        style={{ transform: "scaleY(-1)", position: "relative", top: "-80px"}}
                     />
                 </div>
-                <div className="row d-flex justify-content-center my-5">
+                
+                <div className="row d-flex justify-content-around" style={{position: "relative", top: "-180px"}}>
+                    {/* <img
+                        src="/cenTwo.svg"
+                        className="img-fluid"
+                        width="450"
+                        height="350"
+                        alt="Picture"
+                        
+
+                    /> */}
                     <img
-                        src="/add.svg"
+                        
+                        src="/sideImg.svg"
                         className="img-fluid"
                         width="450"
                         height="350"
@@ -31,7 +42,7 @@ function MotoSection() {
 
 
 
-                <div className="row d-flex justify-content-center">
+                <div className="row d-flex justify-content-center py-5" style={{backgroundColor:"#f7f9fc",position: "relative", top: "-190px", height:"100%"}}>
                     <div className="col-sm-10 text-center" style={{}}>
                         <hr/>
                         <h5 className={`${style.motoLine}`} style={{}}>
