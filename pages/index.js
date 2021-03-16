@@ -27,7 +27,7 @@ export default function Home() {
         
         */}
         <MotoSection />
-        <Post />
+        {/* <Post /> */}
 
 
       </LandingLayout>
