@@ -25,11 +25,11 @@ function post() {
     return (
         <Fragment>
 
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row d-flex justify-content-around">
                     {
                         post.map((v, i) => (
-                            <div className="col-sm-4 card" style={{ border: "1px solid green" }}>
+                            <div className="col-sm-4 card" style={{ border: "1px solid #4db8ff" }}>
                                 <h4 className="card-header">{v.title}</h4>
                                 <p className="card-body">{v.body}</p>
                             </div>

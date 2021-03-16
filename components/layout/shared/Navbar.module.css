@@ -1,4 +1,4 @@
-.navBg {
+/* .navBg {
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
@@ -7,4 +7,9 @@
     rgba(71, 173, 238, 1) 100%,
     rgba(9, 9, 121, 1) 100%
   );
+} */
+
+
+.navBg {
+  background: #4db8ff;
 }
