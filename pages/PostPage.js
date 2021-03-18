@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Fragment } from 'react';
+import LandingLayout from '../components/layout/landing/landing.layout';
 
 function PostPage({ post }) {
 
@@ -9,19 +10,24 @@ function PostPage({ post }) {
     return (
         <Fragment>
 
-            <div className="container">
-                <div className="row d-flex justify-content-around">
-                    {
-                        post.map((v, i) => (
-                            <div key={i} className="col-sm-4 card" style={{ border: "1px solid green" }}>
-                                <h4 className="card-header">{v.title}</h4>
-                                <p className="card-body">{v.body}</p>
-                            </div>
-                        ))
-                    }
+            <LandingLayout>
+                <div className="container">
+                    <div className="row d-flex justify-content-around">
+                        {
+                            post.map((v, i) => (
+                                <div key={i} className="col-sm-4 card" style={{ border: "1px solid green" }}>
+                                    <h4 className="card-header">{v.title}</h4>
+                                    <p className="card-body">{v.body}</p>
+                                </div>
+                            ))
+                        }
+                    </div>
+
                 </div>
 
-            </div>
+            </LandingLayout>
+
+
 
         </Fragment>
     )
