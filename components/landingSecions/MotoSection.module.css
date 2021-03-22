@@ -1,16 +1,48 @@
+.motoBg{
+  
+  background-color: #f7f9fc;
+  position: relative;
+  top: -190px;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+}
+
+
+
+
 .motoLine {
   /* fontWeight: "100", color: "#51c2d5", textTransform: "uppercase", fontFamily: "'Trirong', serif"; */
   color: #a4a4a4;
   text-transform: uppercase;
-  font-family: "Trirong", serif;
+  font-family: 'Atma', cursive;
   font-weight: 200;
   letter-spacing: 10px;
   font-size: 55px;
   transition: 0.5s;
 }
+.motoLineBangla{
+  color: #a4a4a4;
+  font-family: 'Atma', cursive;
+  font-weight: 200;
+  letter-spacing: 7px;
+  font-size: 65px;
+  transition: 0.5s;
+}
 
 .motoLine:hover {
   letter-spacing: 15px;
+}
+
+.motoLineBangla:hover{
+  letter-spacing: 15px;
+}
+
+.motoDes{
+  font-family: 'Rubik', sans-serif;
+  color: #aaa;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: lighter;
 }
 
 .joinBtn {
@@ -27,6 +59,7 @@
   color: #fff;
   border-radius: 30px;
   cursor: pointer;
+  
 }
 
 .joinBtn h5 {

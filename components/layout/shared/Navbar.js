@@ -41,7 +41,7 @@ function Navbar(props) {
 
                 <div className="d-flex justify-content-center align-items-center">
                     <div>
-                        <h5 className="" style={{ color: "green", fontSize: "14px", marginTop: "3px" }}>B</h5>
+                        <h5 className="" style={{ color: "#aaa", fontSize: "14px", marginTop: "3px" }}>B</h5>
                     </div>
                     <div>
                         <Switch
@@ -53,7 +53,7 @@ function Navbar(props) {
                         />
                     </div>
                     <div>
-                        <h5 className="" style={{ color: "green", fontSize: "14px", marginTop: "3px" }}>E</h5>
+                        <h5 className="" style={{ color: "#aaa", fontSize: "14px", marginTop: "3px" }}>E</h5>
                     </div>
 
                 </div>

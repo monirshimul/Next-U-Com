@@ -50,24 +50,42 @@ function MotoSection() {
 
 
 
-                <div className="row d-flex justify-content-center py-5" style={{ backgroundColor: "#f7f9fc", position: "relative", top: "-190px", height: "100%" }}>
-                    <div className="col-sm-10 text-center" style={{}}>
+                <div className={`row d-flex justify-content-center py-5 ${style.motoBg}`} style={{}}>
+                    <div className="col-sm-10 text-center" style={{ paddingTop: "150px" }}>
                         <hr />
                         {
                             changeLang === "Bangla" ? (
-                                <h5 className="" style={{}}>
+                                <h5 className={`${style.motoLineBangla}`} style={{}}>
                                     আপনার ব্যবসাকে আজই দ্রুততর করুন
                                 </h5>
                             ) : (
-                                    <h5 className={`${style.motoLine}`} style={{}}>
-                                        Stimulate Your <span style={{ color: "coral" }}>Business</span> Today
-                                    </h5>
-                                )
+                                <h5 className={`${style.motoLine}`} style={{}}>
+                                    Stimulate Your <span style={{ color: "coral" }}>Business</span> Today
+                                </h5>
+                            )
                         }
 
                         <hr />
-                        <div className="d-flex justify-content-center mt-5">
-                            <div className={`${style.joinBtn}`}>
+                        <div className="d-flex justify-content-center">
+                            <img
+
+                                src="/moto.svg"
+                                className="img-fluid"
+                                width="250"
+                                height="250"
+                                alt="Picture"
+
+
+                            />
+                        </div>
+                        <div className="d-flex justify-content-center">
+                            <p className={`${style.motoDes}`}>Now you can control your customer.Your customer will order your product<br />
+                                through your order management portal.Accelerate your business by combining facebook and
+                                <br /> our Store Management.
+                            </p>
+                        </div>
+                        <div className="d-flex justify-content-center mt-2">
+                            <div className={`${style.joinBtn} text-center`}>
                                 <h5>Learn How</h5>
                             </div>
                         </div>
