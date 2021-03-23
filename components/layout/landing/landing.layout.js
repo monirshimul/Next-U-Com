@@ -9,7 +9,7 @@ export class LandingLayout extends Component {
                 <Navbar />
                 {this.props.children}
 
-
+                <Footer />
             </Fragment>
         )
     }

@@ -26,7 +26,7 @@ function MotoSection() {
                     />
                 </div>
 
-                <div className="row d-flex justify-content-around" style={{ position: "relative", top: "-180px" }}>
+                <div className="row d-flex justify-content-center align-items-center">
                     {/* <img
                         src="/cenTwo.svg"
                         className="img-fluid"
@@ -36,21 +36,42 @@ function MotoSection() {
                         
 
                     /> */}
-                    <img
+                    <div className="col-sm-6 text-center">
+                        <img
 
-                        src="/sideImg.svg"
-                        className="img-fluid"
-                        width="450"
-                        height="350"
-                        alt="Picture"
+                            src="/sideImg.svg"
+                            className="img-fluid"
+                            width="450"
+                            height="350"
+                            alt="Picture"
 
 
-                    />
+                        />
+                    </div>
+
+
+                    <div className="col-sm-4 text-center">
+                        {
+                            changeLang === "English" ? (
+                                <p className={`${style.motoDes}`}>" Now you can control your customer.Your customer will order your product<br />
+                                through your <span style={{ color: "#bed82b" }}>Order Management</span> portal.Accelerate your business by combining facebook and
+                                <br /> our <span style={{ color: "#db6841" }}>Store Management</span>. "
+                        </p>
+                            ) : (
+                                    <p className={`${style.motoDes}`}>" আপনার ক্রেতা কে আপনি নিজেই এখন নিয়ন্ত্রণ করুন। আপনার ক্রেতা আপনার <span style={{ color: "#bed82b" }}>অর্ডার ম্যানেজমেন্ট</span> পোর্টাল এর মাধ্যমে আপনাকে অর্ডার করবে।<br />
+                                ফেসবুক এবং আমাদের <span style={{ color: "#db6841" }}>স্টোর ম্যানেজমেন্ট</span> এর কম্বিনেশন,<br/> আপনার ব্যবসাকে এবার আরও এগিয়ে নিয়ে যাবে। "
+                        </p>
+                            )
+                        }
+                        
+
+                    </div>
+
                 </div>
 
 
 
-                <div className={`row d-flex justify-content-center py-5 ${style.motoBg}`} style={{}}>
+                <div className={`row d-flex justify-content-center py-5 ${style.motoBg}`}>
                     <div className="col-sm-10 text-center" style={{ paddingTop: "150px" }}>
                         <hr />
                         {
@@ -79,16 +100,41 @@ function MotoSection() {
                             />
                         </div>
                         <div className="d-flex justify-content-center">
-                            <p className={`${style.motoDes}`}>Now you can control your customer.Your customer will order your product<br />
+                            {
+                                changeLang === "English" ? (
+                                    <p className={`${style.motoDesTwo}`}>Now you can control your customer.Your customer will order your product<br />
                                 through your order management portal.Accelerate your business by combining facebook and
-                                <br /> our Store Management.
-                            </p>
+                                        <br /> our Store Management.
+                                    </p>
+                                ) : (
+                                        <p className={`${style.motoDesTwo}`}>আপনার ক্রেতা কে আপনি নিজেই এখন নিয়ন্ত্রণ করুন। <br />আপনার ক্রেতা আপনার অর্ডার ম্যানেজমেন্ট পোর্টাল এর মাধ্যমে আপনাকে অর্ডার করবে।<br />
+                                ফেসবুক এবং আমাদের স্টোর ম্যানেজমেন্ট এর কম্বিনেশন,<br /> আপনার ব্যবসাকে এবার আরও এগিয়ে নিয়ে যাবে।
+                                        </p>
+                                )
+                            }
+                            
+                            
                         </div>
                         <div className="d-flex justify-content-center mt-2">
                             <div className={`${style.joinBtn} text-center`}>
-                                <h5>Learn How</h5>
+                                {
+                                    changeLang === "English" ? (
+                                        <h5>Learn How</h5>
+                                    ) : (
+                                        <h5>বিস্তারিত দেখুন</h5>
+                                    )
+                                }
+                                
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="row d-flex justify-content-center">
+                    <div className="col-sm-6 text-center">
+                        <h5>Hello</h5>
+                    </div>
+                    <div className="col-sm-6 text-center">
+                        <h5>World</h5>
                     </div>
                 </div>
             </section>

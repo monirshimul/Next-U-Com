@@ -1,8 +1,6 @@
 .motoBg{
   
   background-color: #f7f9fc;
-  position: relative;
-  top: -190px;
   clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
 }
 
@@ -55,6 +53,15 @@
 }
 
 .motoDes{
+  font-family: 'Atma', cursive;
+  color: #aaa;
+  letter-spacing: 1px;
+  font-size: 27px;
+  font-weight: lighter;
+
+  
+}
+.motoDesTwo{
   font-family: 'Rubik', sans-serif;
   color: #aaa;
   letter-spacing: 1px;
