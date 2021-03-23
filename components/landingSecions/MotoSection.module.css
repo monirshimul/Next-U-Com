@@ -36,6 +36,24 @@
   letter-spacing: 15px;
 }
 
+.anImg{
+  position: relative;
+  animation-name: upDown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes upDown{
+
+  0%   {top:0px;}
+  /* 25%  {top:5px;} */
+  50%  {top:15px;}
+  /* 75%  {top:15px;} */
+  100% {top:0px;}
+
+}
+
 .motoDes{
   font-family: 'Rubik', sans-serif;
   color: #aaa;

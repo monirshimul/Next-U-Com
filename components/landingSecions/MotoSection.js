@@ -70,7 +70,7 @@ function MotoSection() {
                             <img
 
                                 src="/moto.svg"
-                                className="img-fluid"
+                                className={`img-fluid ${style.anImg}`}
                                 width="250"
                                 height="250"
                                 alt="Picture"
