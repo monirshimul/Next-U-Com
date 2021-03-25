@@ -35,8 +35,8 @@ function Navbar(props) {
     return (
         <Fragment >
             <nav className={`navbar sticky-top ${style.navBg}`}>
-                <h5><span style={{ color: "coral", fontSize: "45px", fontFamily: "'Arizonia', cursive" }}>U</span>
-                    <span style={{ color: "#a4a4a4", fontSize: "40px", fontFamily: "'Amita', cursive" }}>Com</span></h5>
+                <h5><span style={{ color: "#fc8621", fontSize: "45px", fontFamily: "'Arizonia', cursive" }}>U</span>
+                    <span style={{ color: "#707070", fontSize: "40px", fontFamily: "'Amita', cursive" }}>Com</span></h5>
 
 
                 <div className="d-flex justify-content-center align-items-center">

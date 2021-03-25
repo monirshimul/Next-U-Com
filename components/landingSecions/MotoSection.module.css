@@ -9,7 +9,7 @@
 
 .motoLine {
   /* fontWeight: "100", color: "#51c2d5", textTransform: "uppercase", fontFamily: "'Trirong', serif"; */
-  color: #a4a4a4;
+  color: #707070;
   text-transform: uppercase;
   font-family: 'Atma', cursive;
   font-weight: 200;
@@ -18,7 +18,7 @@
   transition: 0.5s;
 }
 .motoLineBangla{
-  color: #a4a4a4;
+  color: #707070;
   font-family: 'Atma', cursive;
   font-weight: 200;
   letter-spacing: 7px;
@@ -93,10 +93,131 @@
   line-height: 40px;
   letter-spacing: 1px;
   transition: 0.5s;
-  font-family: "Trirong", serif;
+  font-family: 'Atma', cursive;
   font-weight: 300;
 }
 
 .joinBtn:hover h5 {
   letter-spacing: 3px;
 }
+
+
+.cardSec{
+  position: relative;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f7f9fc;
+}
+
+.cardSec::before{
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #fafaf5, #f8f1f1);
+    clip-path: circle(50% at right 10%);
+}
+
+.cardSec::after{
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(#dbf6e9, #edffec); */
+    background: linear-gradient( #edffec, #f4f9f9);
+    clip-path: circle(50% at left 90%);
+}
+
+.cardContainer{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.cardContainer .cardHolder
+{
+  position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 0.7px 0.7px 0.7px rgba(100, 97, 97, 0.2);
+    border-radius: 15px;
+    /* background: #f1f6f9; */
+    background: rgba(216, 245, 248, 0.164);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(185, 185, 185, 0.2);
+    border-left: 1px solid rgba(185, 185, 185, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.cardContainer .cardHolder .content
+{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.cardContainer .cardHolder .content h2
+{
+  position: absolute;
+  font-family: 'Atma', cursive;
+    top: 15px;
+    left:15px;
+    font-size: 4.5em;
+    /* color: rgba(153, 194, 7, 0.5); */
+    color: #d2e1c8;
+    pointer-events: none;
+}
+
+.cardContainer .cardHolder .content h3
+{
+  position: absolute;
+  font-family: 'Rubik', sans-serif;
+  top: 80px;
+  right: 10px;
+  font-size: 1.5em;
+    color: #fc8621;
+    z-index: 1;
+}
+
+.cardContainer .cardHolder .content p
+{
+  font-size: 1em;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 30px;
+  color: #aaaaaa;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+.cardContainer .cardHolder .content a
+{
+  position: relative;
+    display: inline-block;
+    font-family: 'Atma', cursive;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    text-decoration: none;
+    color: #888;
+    border-top: 1px solid #d2d3c9;
+    border-left: 1px solid #d2d3c9;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(200, 206, 206, 0.5);
+}
+
+

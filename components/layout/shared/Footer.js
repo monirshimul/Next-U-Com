@@ -7,10 +7,10 @@ function Footer() {
             <div className="container">
                 <footer className={`row d-flex justify-content-around align-items-center pt-5`} >
                     <div className="col-sm-3">
-                        <p className="text-center" style={{ color: "#bbb" }}>Copyright © 2021 UCommerz.com</p>
+                        <p className="text-center" style={{ color: "#888" }}>Copyright © 2021 UCommerz.com</p>
                     </div>
                     <div className="col-sm-4">
-                        <p className="text-center" style={{ color: "#bbb" }}> Help Center  | Terms  |  Privacy Policy</p>
+                        <p className="text-center" style={{ color: "#888" }}> Help Center  | Terms  |  Privacy Policy</p>
                     </div>
 
 
@@ -26,7 +26,7 @@ function Footer() {
 
 
                         />
-                        <p className="text-center ml-2" style={{ color: "#bbb" }}>Bangladesh</p>
+                        <p className="text-center ml-2" style={{ color: "#888" }}>Bangladesh</p>
                     </div>
 
                 </footer>

@@ -81,7 +81,7 @@ function MotoSection() {
                                 </h5>
                             ) : (
                                 <h5 className={`${style.motoLine}`} style={{}}>
-                                    Stimulate Your <span style={{ color: "coral" }}>Business</span> Today
+                                    Stimulate Your <span style={{ color: "#fc8621" }}>Business</span> Today
                                 </h5>
                             )
                         }
@@ -129,12 +129,40 @@ function MotoSection() {
                         </div>
                     </div>
                 </div>
-                <div className="row d-flex justify-content-center">
-                    <div className="col-sm-6 text-center">
-                        <h5>Hello</h5>
-                    </div>
-                    <div className="col-sm-6 text-center">
-                        <h5>World</h5>
+                <div className={`row ${style.cardSec}`}>
+                    <div className={`col-sm-12 ${style.cardContainer}`}>
+                        <div className={`${style.cardHolder}`}>
+                            <div className={`${style.content}`}>
+                                <h2>ORDER</h2>
+                                
+                                <h3>MANAGE</h3>
+                                
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quis atque odit quos blanditiis
+                    dolores dicta tempora commodi ullam voluptatum, quod earum? </p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div className={`${style.cardHolder}`}>
+                            <div className={`${style.content}`}>
+                                <h2>STORE</h2>
+                                <h3>MANAGE</h3>
+                                
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quis atque odit quos blanditiis
+                    dolores dicta tempora commodi ullam voluptatum, quod earum? </p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div className={`${style.cardHolder}`}>
+                            <div className={`${style.content}`}>
+                                <h2>PRICE</h2>
+
+                                <h3>PRODUCT</h3>
+                                
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quis atque odit quos blanditiis
+                    dolores dicta tempora commodi ullam voluptatum, quod earum? </p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
