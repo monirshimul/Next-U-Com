@@ -36,12 +36,12 @@ function Navbar(props) {
         <Fragment >
             <nav className={`navbar sticky-top ${style.navBg}`}>
                 <h5><span style={{ color: "#fc8621", fontSize: "45px", fontFamily: "'Arizonia', cursive" }}>U</span>
-                    <span style={{ color: "#707070", fontSize: "40px", fontFamily: "'Amita', cursive" }}>Com</span></h5>
+                    <span style={{ color: "#214252", fontSize: "40px", fontFamily: "'Amita', cursive" }}>Com</span></h5>
 
 
                 <div className="d-flex justify-content-center align-items-center">
                     <div>
-                        <h5 className="" style={{ color: "#aaa", fontSize: "14px", marginTop: "3px" }}>B</h5>
+                        <h5 className="" style={{ color: "#214252", fontSize: "14px", marginTop: "3px" }}>B</h5>
                     </div>
                     <div>
                         <Switch
@@ -53,7 +53,7 @@ function Navbar(props) {
                         />
                     </div>
                     <div>
-                        <h5 className="" style={{ color: "#aaa", fontSize: "14px", marginTop: "3px" }}>E</h5>
+                        <h5 className="" style={{ color: "#214252", fontSize: "14px", marginTop: "3px" }}>E</h5>
                     </div>
 
                 </div>

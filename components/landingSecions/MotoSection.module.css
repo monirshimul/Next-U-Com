@@ -54,7 +54,7 @@
 
 .motoDes{
   font-family: 'Atma', cursive;
-  color: #aaa;
+  color: #214252;
   letter-spacing: 1px;
   font-size: 27px;
   font-weight: lighter;
@@ -193,7 +193,7 @@
   top: 15px;
   right: 25px;
   font-size: 2em;
-    color: #a4a4a4;
+    color: #214252;
     z-index: 1;
 }
 
@@ -202,7 +202,7 @@
   font-size: 1em;
   font-family: 'Rubik', sans-serif;
   
-  color: #aaaaaa;
+  color: #707070;
   font-weight: 300;
   
 }
