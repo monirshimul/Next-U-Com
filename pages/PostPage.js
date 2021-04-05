@@ -1,60 +1,60 @@
-import React, { useState, useEffect } from 'react'
-import { Fragment } from 'react';
-import LandingLayout from '../components/layout/landing/landing.layout';
+// import React, { useState, useEffect } from 'react'
+// import { Fragment } from 'react';
+// import LandingLayout from '../components/layout/landing/landing.layout';
 
-function PostPage({ post }) {
+// function PostPage({ post }) {
 
-    //============if data needed from file========================
-    // let post = JSON.parse(data[0].content)
-    // console.log("Post", post)
-    return (
-        <Fragment>
+//     //============if data needed from file========================
+//     // let post = JSON.parse(data[0].content)
+//     // console.log("Post", post)
+//     return (
+//         <Fragment>
 
-            <LandingLayout>
-                <div className="container">
-                    <div className="row d-flex justify-content-around">
-                        {
-                            post.map((v, i) => (
-                                <div key={i} className="col-sm-4 card" style={{ border: "1px solid green" }}>
-                                    <h4 className="card-header">{v.title}</h4>
-                                    <p className="card-body">{v.body}</p>
-                                </div>
-                            ))
-                        }
-                    </div>
+//             <LandingLayout>
+//                 <div className="container">
+//                     <div className="row d-flex justify-content-around">
+//                         {
+//                             post.map((v, i) => (
+//                                 <div key={i} className="col-sm-4 card" style={{ border: "1px solid green" }}>
+//                                     <h4 className="card-header">{v.title}</h4>
+//                                     <p className="card-body">{v.body}</p>
+//                                 </div>
+//                             ))
+//                         }
+//                     </div>
 
-                </div>
+//                 </div>
 
-            </LandingLayout>
-
-
-
-        </Fragment>
-    )
+//             </LandingLayout>
 
 
-}
+
+//         </Fragment>
+//     )
 
 
-export default PostPage;
+// }
 
-//========================for External Api calling with getStaticProps=======================================
-export let getStaticProps = async (context) => {
-    console.log("data", context)
-    let res = await fetch('https://jsonplaceholder.typicode.com/posts')
 
-    let data = await res.json()
-    if (!data) {
-        return {
-            notFound: true,
-        }
-    }
-    return {
-        props: {
-            post: data
-        }, // will be passed to the page component as props
-    }
-}
+// export default PostPage;
+
+// //========================for External Api calling with getStaticProps=======================================
+// export let getStaticProps = async (context) => {
+//     console.log("data", context)
+//     let res = await fetch('https://jsonplaceholder.typicode.com/posts')
+
+//     let data = await res.json()
+//     if (!data) {
+//         return {
+//             notFound: true,
+//         }
+//     }
+//     return {
+//         props: {
+//             post: data
+//         }, 
+//     }
+// }
 
 //=============================== dynamic routes for static generation with getStaticPaths===============================
 
