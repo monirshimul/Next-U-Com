@@ -224,4 +224,46 @@
     box-shadow: 0px 5px 10px rgba(77, 78, 78, 0.5);
 } */
 
+.orderSec{
+  background: #f7f9fc;
+  padding: 100px 0px;
+}
+
+.orderSec h1{
+  font-family: 'Atma', cursive;
+  color: #214252;
+  font-size: 3.5em;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.orderSec p{
+  font-size: 1.2em;
+  font-family: 'Rubik', sans-serif;
+  
+  color: #707070;
+  font-weight: 300;
+}
+
+.orderSecBtn{
+  width: 150px;
+  height: 60px;
+  background: #f3f4f5;
+  border-radius: 5px;
+  border: 2px solid #214252;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.orderSecBtn:hover{
+  letter-spacing: 2px;
+  border: 2px solid #a4ebf3;
+  background: #214252;
+  color: #a4ebf3;
+}
+
 

@@ -206,8 +206,33 @@ function MotoSection() {
                         </div>
                     </div>
                 </div>
+
+                <div className={`row d-flex justify-content-center align-items-center ${style.orderSec} mt-5`}>
+                                <div className="col-sm-4 text-center" >
+                                    <h1>Know About Order</h1>
+                                    <p>Join us on February 24 at 9AM PT for #TheAndroidShow, where we'll give you a behind the scenes look at Jetpack Compose, Android's modern toolkit for building native UI. Tweet us your questions on Jetpack Compose using #TheAndroidShow.</p>
+                                    <div className={`${style.orderSecBtn}`}>
+                                        LEARN MORE
+                                    </div>
+                                </div>
+                                <div className="col-sm-4 text-center">
+                                <img
+
+                                        src="/orderSec3.svg"
+                                        className={`img-fluid ${style.anImg}`}
+                                        style={{animationDelay:"2s"}}
+                                        width="350"
+                                        height="100"
+                                        alt="Picture"
+
+
+                                    />
+                                    
+                                </div>
+                </div>
+
             </section>
-            <section></section>
+            
         </Fragment>
     );
 }
