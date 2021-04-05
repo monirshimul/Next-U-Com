@@ -40,7 +40,7 @@ function MotoSection() {
                         <img
 
                             src="/sideImg.svg"
-                            className="img-fluid"
+                            className={`img-fluid ${style.anImg}`}
                             width="450"
                             height="350"
                             alt="Picture"
@@ -133,34 +133,71 @@ function MotoSection() {
                     <div className={`col-sm-12 ${style.cardContainer}`}>
                         <div className={`${style.cardHolder}`}>
                             <div className={`${style.content}`}>
-                                <h2>ORDER</h2>
+                                <h2>ORDER -</h2>
                                 
                                 <h3>MANAGE</h3>
                                 
+                                <div className="d-flex justify-content-center" style={{}}>
+                                    <img
+
+                                        src="/order.svg"
+                                        className={`img-fluid ${style.anImg}`}
+                                        width="150"
+                                        height="150"
+                                        alt="Picture"
+
+
+                                    />
+                                </div>
+                                
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quis atque odit quos blanditiis
                     dolores dicta tempora commodi ullam voluptatum, quod earum? </p>
-                                <a href="#">Read More</a>
+                    <div className={`${style.joinBtn}`}><h5>Read More</h5></div>
                             </div>
                         </div>
                         <div className={`${style.cardHolder}`}>
                             <div className={`${style.content}`}>
-                                <h2>STORE</h2>
+                                <h2>STORE -</h2>
                                 <h3>MANAGE</h3>
+                                <div className="d-flex justify-content-center" style={{}}>
+                                    <img
+
+                                        src="/store.svg"
+                                        className={`img-fluid ${style.anImg}`}
+                                        width="150"
+                                        height="150"
+                                        alt="Picture"
+
+
+                                    />
+                                </div>
                                 
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quis atque odit quos blanditiis
                     dolores dicta tempora commodi ullam voluptatum, quod earum? </p>
-                                <a href="#">Read More</a>
+                    <div className={`${style.joinBtn} text-center`}><h5>Read More</h5></div>
                             </div>
                         </div>
                         <div className={`${style.cardHolder}`}>
                             <div className={`${style.content}`}>
-                                <h2>PRICE</h2>
+                                <h2>PRICE -</h2>
 
                                 <h3>PRODUCT</h3>
+                                <div className="d-flex justify-content-center" style={{}}>
+                                    <img
+
+                                        src="/price.svg"
+                                        className={`img-fluid ${style.anImg}`}
+                                        width="150"
+                                        height="150"
+                                        alt="Picture"
+
+
+                                    />
+                                </div>
                                 
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quis atque odit quos blanditiis
                     dolores dicta tempora commodi ullam voluptatum, quod earum? </p>
-                                <a href="#">Read More</a>
+                                <div className={`${style.joinBtn} text-center`}><h5>Read More</h5></div>
                             </div>
                         </div>
                     </div>
