@@ -92,6 +92,7 @@ function MotoSection() {
 
                                 src="/moto.svg"
                                 className={`img-fluid ${style.anImg}`}
+                                style={{animationDelay:"1s"}}
                                 width="250"
                                 height="250"
                                 alt="Picture"
@@ -142,6 +143,7 @@ function MotoSection() {
 
                                         src="/order.svg"
                                         className={`img-fluid ${style.anImg}`}
+                                        style={{animationDelay:"1s"}}
                                         width="150"
                                         height="150"
                                         alt="Picture"
@@ -164,6 +166,7 @@ function MotoSection() {
 
                                         src="/store.svg"
                                         className={`img-fluid ${style.anImg}`}
+                                        style={{animationDelay:"1.5s"}}
                                         width="150"
                                         height="150"
                                         alt="Picture"
@@ -187,6 +190,7 @@ function MotoSection() {
 
                                         src="/price.svg"
                                         className={`img-fluid ${style.anImg}`}
+                                        style={{animationDelay:"2s"}}
                                         width="150"
                                         height="150"
                                         alt="Picture"
