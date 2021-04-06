@@ -220,7 +220,7 @@ function MotoSection() {
 
                                         src="/orderSec3.svg"
                                         className={`img-fluid ${style.anImg}`}
-                                        style={{animationDelay:"2s"}}
+                                        style={{animationDelay:"1s"}}
                                         width="350"
                                         height="100"
                                         alt="Picture"
@@ -229,6 +229,73 @@ function MotoSection() {
                                     />
                                     
                                 </div>
+                </div>
+
+                <div className={`row d-flex justify-content-center align-items-center ${style.orderSecTwo} mt-2`}>
+                    <div className="col-sm-5">
+                        <div className="row d-flex justify-content-around align-items-center" 
+                        style={{padding:"20px", borderRight:"20px solid #fff", background:"#f7f9fc", boxShadow:"0px 5px 10px rgba(77, 78, 78, 0.1)"}}>
+                            <div className="col-sm-5" >
+                                <h1 style={{fontSize:"18px"}}>How to Apply</h1>
+                                <hr/>
+                                <p >Join us on February 24 at 9AM PT for #TheAndroidShow, where we'll give you a behind the scenes look at Jetpack Compose</p>
+                                <hr/>
+                                <div className="">
+                                    <a>LEARN MORE</a>
+                                    </div>
+                            </div>
+                            <div className="col-sm-5" >
+                                <img
+
+                                    src="/howOrder2.svg"
+                                    className={`img-fluid ${style.anImg}`}
+                                    style={{ animationDelay: "1.5s" }}
+                                    width="350"
+                                    height="100"
+                                    alt="Picture"
+
+
+                                />
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+
+                    <div className="col-sm-5" >
+                        <div className="row d-flex justify-content-around align-items-center" 
+                        style={{padding:"20px", background:"#f7f9fc", borderLeft:"20px solid #fff", boxShadow:"0px 5px 10px rgba(77, 78, 78, 0.1)"}}>
+                            <div className="col-sm-5">
+                                <h1 style={{fontSize:"18px"}}>Why order management</h1>
+                                <hr/>
+                                <p>Join us on February 24 at 9AM PT for #TheAndroidShow, where we'll give you a behind the scenes look at Jetpack Compose</p>
+                                <hr/>
+                                <div className="">
+                                    <a>LEARN MORE</a>
+                                    </div>
+                            </div>
+                            <div className="col-sm-5">
+                                <img
+
+                                    src="/000.svg"
+                                    className={`img-fluid ${style.anImg}`}
+                                    style={{ animationDelay: "2s" }}
+                                    width="350"
+                                    height="100"
+                                    alt="Picture"
+
+
+                                />
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+
+
+
                 </div>
 
             </section>

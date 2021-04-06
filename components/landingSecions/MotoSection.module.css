@@ -228,6 +228,10 @@
   background: #f7f9fc;
   padding: 100px 0px;
 }
+.orderSecTwo{
+  background: #fff;
+  padding: 100px 0px;
+}
 
 .orderSec h1{
   font-family: 'Atma', cursive;
@@ -256,7 +260,6 @@
   cursor: pointer;
   transition: 0.5s all ease;
   margin: 0 auto;
-  text-align: center;
 }
 
 .orderSecBtn:hover{
